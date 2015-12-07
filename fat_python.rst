@@ -257,8 +257,7 @@ Propagate constant values of variables.
 |       return y |       return 1       |
 +----------------+----------------------+
 
-See also the :ref:`constant propagation <const-prop>` optimization.
-
+See also the :ref:`constant folding <const-fold>` optimization.
 
 .. _fat-const-fold:
 
@@ -284,8 +283,7 @@ Example:
 |       return 1 + 1 |       return 2   |
 +--------------------+------------------+
 
-See also the :ref:`constant folding <const-fold>` optimization.
-
+See also the :ref:`constant propagation <const-prop>` optimization.
 
 .. _fat-copy-builtin-to-constant:
 
